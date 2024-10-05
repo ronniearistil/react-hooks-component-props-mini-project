@@ -1,31 +1,33 @@
-import logo from "../assets/logo";
-
 const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  name: "APIs Demystified",
+  image: "IMG_1724.jpg",
+  about: "A blog about my journey of learning how to work with APIs in web development.",
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "APIs Demystified: My Journey",
+      date: "October 5, 2024",
+      preview: "Learning how to work with APIs and integrate them into my projects.",
+      minutes: 10,
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
+      title: "Understanding REST APIs",
+      date: "September 25, 2024",
+      preview: "What are RESTful APIs, and how do they fit into modern web development?",
       minutes: 15,
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "Best Practices for API Integration",
+      date: "October 1, 2024",  // Update the date here
+      preview: "Ensuring API calls are efficient and well-structured in your applications.",
+      minutes: 20,
     },
   ],
 };
 
 export default blogData;
+
+
+
